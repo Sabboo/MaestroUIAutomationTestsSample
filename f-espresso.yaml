@@ -1,0 +1,9 @@
+appId: com.codingwithmitch.espressouitestexamples
+---
+    - launchApp
+    - tapOn:
+        text: "Avengers: Infinity War"
+    - tapOn:
+        text: "Star Actors"
+    - assertVisible:
+        text: "Robert Downey Jr."
